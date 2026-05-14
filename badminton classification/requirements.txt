@@ -1,0 +1,15 @@
+Flask
+torch==1.13.1
+torchvision==0.14.1
+torchaudio==0.13.1
+numpy==1.26.4
+opencv-python==4.11.0.86
+gluoncv==0.10.5.post0
+yacs==0.1.8
+matplotlib==3.10.7
+av
+Pillow
+PyYAML
+tqdm
+scipy
+requests
