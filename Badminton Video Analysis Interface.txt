@@ -1,0 +1,48 @@
+Badminton Video Analysis Interface
+
+This project provides a web-based interface for automatic badminton match video analysis. The system allows a user to upload a badminton match video, run the trained classification pipeline, and view the generated annotated output video through a browser.
+
+
+REQUIREMENTS
+
+Before running the project, make sure the following requirement is installed:
+
+Docker Desktop
+
+Docker Desktop must be running before executing the project commands.
+
+STEP 1 — EXTRACT THE PROJECT FOLDER
+
+
+STEP 2 — OPEN TERMINAL INSIDE THE PROJECT FOLDER
+
+Open Command Prompt or PowerShell inside the extracted project folder.
+
+
+STEP 3 — BUILD THE DOCKER IMAGE
+
+This step packages the application, model files, dependencies, and runtime environment into a Docker image.
+
+Run the following command:
+
+docker build -t badminton-interface .
+
+STEP 4 — RUN THE DOCKER CONTAINER
+
+This step starts the web application inside the Docker container. Follow the link generated after docker run end 
+
+
+STEP 5 — OPEN THE WEB INTERFACE
+
+On the webpage, click the upload button and select a badminton match video from your computer.
+
+Click the Analyse Video button.
+
+The system will process the uploaded video using the trained badminton classification pipeline.
+
+Processing time depends on the length of the uploaded video and the hardware performance of the computer.
+
+After processing is completed, the annotated output video will be displayed on the webpage.
+
+The generated output video is also saved inside the application's output folder.
+
